@@ -7,8 +7,8 @@
 
 # NOTE : all the above operators will return bool value
 
-no1 = 10
-no2 = 9
+no1 = int(input("Enter your no1 : "))
+no2 = int(input("Enter your no2 : "))
 
 eq = no1 == no2
 print("Equal : ",eq)

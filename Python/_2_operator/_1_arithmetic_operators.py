@@ -15,7 +15,7 @@ print("Addition : ",add)
 sub = no1 - no2
 print("Subtraction : ",sub)
 
-multi=no1*no2
+multi = no1*no2
 print("Multiplication : ",multi)
 
 div=no1/no2
