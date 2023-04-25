@@ -1,19 +1,23 @@
-# int
+# int 
+# immutable
 # no = 2
 # print("Value : ",no)
 # print("Datatype : ",type(no))
 
 # float
+# immutable
 # salary = 89.78
 # print("Value : ",salary)
 # print("Datatype : ",type(salary))
 
 # str
+# immutable
 # name = "Bharati"
 # print("Value : ",name)
 # print("Datatype : ",type(name))
 
 # bool
+# immutable
 # female = True
 # print("Value : ",female)
 # print("Datatype : ",type(female))
