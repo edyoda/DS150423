@@ -22,3 +22,4 @@ if True:
 if no1 == 90:
     print("Good Night")
 
+
