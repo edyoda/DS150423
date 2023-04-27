@@ -48,3 +48,19 @@
 # print("complex into str : ",str(comp),"----->",type(str(comp)))
 # print("complex into complex : ",complex(comp),"----->",type(complex(comp)))
 # print("complex into bool : ",bool(comp),"----->",type(bool(comp)))
+
+
+
+# list()
+# set()
+# tuple()
+# dict()
+
+lst = [7,5,3,7,7,7,7]
+print(lst)
+
+unique = set(lst)
+print(unique)
+
+lst1 = list(unique)
+print(lst1)
