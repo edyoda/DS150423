@@ -8,6 +8,6 @@
 
 total = 0
 list1 = [2,3,5,1,6]
-for ele in range(0, len(list1)):
-    total = total + list1[ele]
+for i in range(len(list1)):  # i = 3
+    total += list1[i] # total = 17
 print("Sum of all elements in given list: ", total)
