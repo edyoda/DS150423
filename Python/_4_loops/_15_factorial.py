@@ -9,4 +9,4 @@ for i in range(1, user+1):
 
 print("Factorial of", user, "is", factorial)
 
-# display all the numbers which are divisible by 10 but not 2 between 10 - 1000
+# display all the numbers which are divisible by 5 but not 2 between 10 - 1001
