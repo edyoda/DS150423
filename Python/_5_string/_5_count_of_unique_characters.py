@@ -7,7 +7,11 @@ for i in text:
 print(len(unique))
 
 
+
 # 2nd Way
 string=input("Enter a Name: ")
 leng=len(set(string))
 print(leng)
+
+# Bharati
+# 6

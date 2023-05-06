@@ -87,3 +87,4 @@ print("Chr : ",chr_demo)
 find_demo = str1.find("o",7,14)
 print("Find : ",find_demo)
 
+
