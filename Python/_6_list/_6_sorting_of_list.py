@@ -16,4 +16,6 @@ for i in range(len(l)): # i = 6
            
 print(l)
 
-[4,5,6,3,2]
+# lst = ["cat","mat","sun","moon","fat","sat"]
+
+# o/p = ["cat","mat","fat","sat"]

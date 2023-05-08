@@ -26,3 +26,9 @@
 #     ele = int(input("Enter elements: "))
 #     list1.append(ele)
 # print("Largest element is:", max(list1))
+
+
+
+# size
+# element
+# sort the list without using sort()
