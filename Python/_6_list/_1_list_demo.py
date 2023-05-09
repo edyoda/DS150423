@@ -1,4 +1,11 @@
 # List
+# [] / list()
+# it allows heterogenous
+# it does allow duplicate values
+# it is ordered
+# it is indexed-based (it starts from 0)
+# it's mutable (changable)
+# it's iterable
 
 lst = [10,3,1,4,5,8,6]
 print(f"Original : {lst}")
