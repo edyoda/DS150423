@@ -45,3 +45,5 @@ print(dict1)
 
 value = dict1.get(1,"Not Present")
 print(value)
+
+
