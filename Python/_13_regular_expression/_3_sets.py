@@ -26,6 +26,6 @@ import re
 # res = re.findall("[@#]",data) # checks for @,#
 # print(res)
 
-data = "The rain in Spain"
-res = re.findall("[a-z]{2}",data) # checks for 4 lower letters
-print(res)
+# data = "The rain in Spain"
+# res = re.findall("[a-z]{2}",data) # checks for 4 lower letters
+# print(res)
