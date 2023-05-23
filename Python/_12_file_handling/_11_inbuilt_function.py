@@ -1,9 +1,16 @@
-file = open("demo.txt","w")
+file = open("code.txt","r")
+
+
+# print(file.read(4))
+
+# print(file.read(5))
+
+# print(file.read())
 
 # file.write("Bye all")
 
-lst = ["Hello\n","Bye\n","Good Night\n"]
-file.writelines(lst)
+# lst = ["Hello\n","Bye\n","Good Night\n"]
+# file.writelines(lst)
 
 # data = file.read() # reads the whole thing
 # print(data)

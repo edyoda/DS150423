@@ -5,3 +5,5 @@ print(nums)
 result = list(filter(lambda x: (x % 3== 0 and x % 5 == 0), nums)) 
 print("\nNumbers of the above list divisible by three and five:")
 print(result)
+
+
