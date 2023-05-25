@@ -21,7 +21,7 @@
 #     def addition(self):
 #         return self.n1 + self.n2
 
-# obj = python()                       # calling construtor
+# obj = python()                      # calling construtor
 # obj.getinput()
 # res = obj.addition()
 # print("Result : ",res)

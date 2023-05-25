@@ -5,7 +5,7 @@
 
 class building:          # class
     
-    def bricks(self):    # method
+    def bricks(self):    # instance method
         print("1000 Bricks")
 
     def doors(self):
