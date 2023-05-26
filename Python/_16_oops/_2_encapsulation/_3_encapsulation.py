@@ -1,23 +1,23 @@
 # Encapsulation
  
-# it is use to bind attributes (varibles) and behaviour (methods) together 
-# into single unit
 # to access private member through public environment
+
+# private member - canniot be accessed outside the class, to make variable/method private just add "__" as prefix
 
 class car:
 
-    def __init__(self,engine,brand,mileage):
-        self.engine = engine
+    def __init__(self,__engine,brand,mileage):
+        self.__engine = __engine
         self.brand = brand
         self.mileage = mileage
 
-    def display(self):
-        return f"Engine : {self.engine} \nBrand : {self.brand} \nMileage : {self.mileage}"
+    def __str__(self):
+        return f"Engine : {self.__engine} \nBrand : {self.brand} \nMileage : {self.mileage}"
     
     # getter and setter
     # setter
     def set_engine(self,engine):
-        self.engine = engine
+        self.__engine = engine
 
     def set_brand(self,brand):
         self.brand = brand
@@ -27,7 +27,7 @@ class car:
 
     # getter
     def get_engine(self):
-        return self.engine
+        return self.__engine
     
     def get_brand(self):
         return self.brand
@@ -37,18 +37,14 @@ class car:
 
 
 obj = car("Petrol Engine","BMW","35km p/l")
-data = obj.display()
-print(data)
+print(obj,"\n")
 
+obj.brand = "Ferrari"
+# obj.__engine = "Diesel Engine"
 obj.set_engine("Diesel Engine")
-obj.set_mileage("50km p/l")
-data = obj.display()
-print(data)
+obj.mileage = "50km p/l"
 
-print("Engine : ",obj.get_engine())
-print(obj.get_brand())
-print(obj.get_mileage())
+print(obj)
 
 
-# class - laptop
-# attributes - motherboard, brand, memory
+
