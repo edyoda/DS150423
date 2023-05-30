@@ -20,6 +20,8 @@ class Cpp:
 
 class Python(Cpp,C):
     def __init__(self):
+        C.__init__(self)
+        Cpp.__init__(self)
         print("Python = Child Class")
 
     def both(self):
