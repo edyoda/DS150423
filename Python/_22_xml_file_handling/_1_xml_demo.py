@@ -6,17 +6,10 @@
 # xml tags are not pre-defined
 # we can create our owns tags in xml
 
-students = {
-    "student1" : {
-        "rno" : 1,
-        "name" : "Bharati"
-    },
-    "student2" : {
-        "rno" : 2,
-        "name" : "Raj"
-    },
-    "student3" : {
-        "rno" : 3,
-        "name" : "Ram"
-    },
-}
+# rules
+# 1. There should be a root tag
+# 2. case sensitive
+# 3. if you have started a tag, you must end it
+
+# <students> --> start tag
+# </students> --> end tag
