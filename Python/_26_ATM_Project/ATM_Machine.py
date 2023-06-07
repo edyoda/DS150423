@@ -1,9 +1,12 @@
 from custom_exceptions import *
 import re
+import json
 
 class ATM:
 
-    customer = {'1234':80000, '5678':90000 }
+    # customer = {'1234':80000, '5678':90000 } # json file
+    with open(r"C:\Users\vashi\OneDrive\Documents\DS150423\Python\_26_ATM_Project\customer.json") as file1:
+        customer = json.load(file1)
     
     def pin(self):
         pin_no = input('Enter your pin:   ')
@@ -56,7 +59,7 @@ class ATM:
                         
                         YOUR BALNCE REMAINING IS : {self.customer[self.pin_no]}
                         
-                        Thank you for using our services\n''')
+                        Thank you for using our services\n''') # txt file
                     
                 elif choice == 4:
                     print("Thank You for connecting with us!")
