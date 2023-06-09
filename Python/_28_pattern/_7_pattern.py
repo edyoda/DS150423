@@ -24,3 +24,4 @@ for i in range(4):
         print(value, end = para)
         value += 1
     print()
+

@@ -8,7 +8,3 @@ for x in range(4): # rows
         print("*",end=" ")
     print()   
 
-# 1 1 1 1
-# 2 2 2 2
-# 3 3 3 3
-# 4 4 4 4
